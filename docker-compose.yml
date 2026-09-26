@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    image: geunsam2/korailbot:latest
+    build: .
     container_name: korail_bot
     ports:
       - "8000:8080"
